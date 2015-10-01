@@ -6,4 +6,4 @@
 db_repository
 flask
 node_modules
-google-conf.py
+client_secrets.json
