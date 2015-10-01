@@ -5,3 +5,4 @@ Because this exploration is going to focus on OAuth I used [Yeoman](http://yeoma
 
 used pip to install the oauth2client library
 encountered issues with `InvalidClientSecretsError: Missing property "redirect_uris" in a client type of "web".`
+Regenerated my client_secrets.json because it was missing the redirect_uris parameter, this seem to fix the issue.

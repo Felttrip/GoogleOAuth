@@ -1,7 +1,7 @@
-<div class="row">
+<div ngController="HomeController" class="row">
     <div class="col-md-8">
         <h1>Welcome to OauthExploration!</h1>
         <p class="lead">Nate Thompson's Google OAuth Exploration</p>
-        <button type="button" class="btn btn-default">Log in with Google!</buton>
+        <button type="button" class="btn btn-default"><a href = {{auth_uri}}>Log in with Google!</a></button>
     </div>
 </div>

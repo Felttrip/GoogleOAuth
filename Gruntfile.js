@@ -4,9 +4,32 @@ var proxySnippet = require('grunt-connect-proxy/lib/utils').proxyRequest;
 
 module.exports = function (grunt) {
   require('load-grunt-tasks')(grunt);
-  require('time-grunt')(grunt); 
-
+  require('time-grunt')(grunt);
+  grunt.loadNpmTasks('grunt-ng-constant');
   grunt.initConfig({
+    ngconstant: {
+      options: {
+        name: 'config',
+        wrap: '"use strict";\n\n{%= __ngModule %}',
+        space: '  '
+      },
+      development: {
+        options: {
+          dest: '<%= yeoman.app %>/js/config.js',
+        },
+        constants: {
+          ENV: 'development'
+        }
+      },
+      production: {
+        options: {
+          dest: '<%= yeoman.dist %>/js/config.js',
+        },
+        constants: {
+          ENV: 'production'
+        }
+      }
+    },
     yeoman: {
       // configurable paths
       app: require('./bower.json').appPath || 'app/static',
@@ -108,6 +131,7 @@ module.exports = function (grunt) {
   grunt.registerTask('server', function (target) {
     grunt.task.run([
       //'copy:dist',
+      'ngconstant:development',
       'configureProxies',
       'connect:livereload',
       'watch'
