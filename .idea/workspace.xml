@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c592434-3af7-4bbf-8d5f-3b1d9e5fcc36" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/models/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db_create.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db_downgrade.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db_migrate.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db_upgrade.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/virtualenv.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/__init__.py" afterPath="$PROJECT_DIR$/app/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/routes/index.py" afterPath="$PROJECT_DIR$/app/routes/index.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/views/home/oauthSuccess.html" afterPath="$PROJECT_DIR$/app/static/views/home/oauthSuccess.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/js/home/oauthSuccessController.js" afterPath="$PROJECT_DIR$/app/static/js/home/oauthSuccessController.js" />
     </list>
     <ignored path="google-oauth-python.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,8 +26,8 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.60674155">
-              <caret line="18" column="68" selection-start-line="18" selection-start-column="68" selection-end-line="18" selection-end-column="68" />
+            <state vertical-scroll-proportion="0.47191012">
+              <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -117,8 +107,8 @@
         <option value="$PROJECT_DIR$/app/static/views/home/oauthSuccess.html" />
         <option value="$PROJECT_DIR$/app/routes/index.py" />
         <option value="$PROJECT_DIR$/app/__init__.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/config.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -465,8 +455,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.60674155">
-          <caret line="18" column="68" selection-start-line="18" selection-start-column="68" selection-end-line="18" selection-end-column="68" />
+        <state vertical-scroll-proportion="0.47191012">
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
           <folding />
         </state>
       </provider>

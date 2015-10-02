@@ -12,7 +12,9 @@ This token is then used to pull the display name of the user.
 I practice this token would be stored to identify the user for future interactions, but in my implementation I just keep
 the token as session data.
 
+url: http://cs4830.cloudapp.net/#/
 Resources
+
 https://developers.google.com/+/domains/profiles
 https://developers.google.com/identity/sign-in/web/people
 https://developers.google.com/apis-explorer/
